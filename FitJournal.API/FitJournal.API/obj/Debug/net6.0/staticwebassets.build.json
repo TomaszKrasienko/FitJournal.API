@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "e1NWMZuBYwdoDfhKKCuubld3u3IPvWqvFUnW0XDltwU=",
+  "Source": "FitJournal.API",
+  "BasePath": "_content/FitJournal.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

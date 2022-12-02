@@ -1,3 +1,5 @@
+using FitJournal.API.Handlers.Exercises.Commands;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FitJournal.API.Controllers;
@@ -6,13 +8,14 @@ namespace FitJournal.API.Controllers;
 [Route("[controller]")]
 public class ExercisesController : Controller
 {
-    public ExercisesController()
+    private readonly IMediator _mediator;
+    public ExercisesController(IMediator mediator)
     {
-        
+        _mediator = mediator;
     }
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {
-        return Ok();
+        return await _mediator.Send(new GetExercisesListQuery());
     }
 }
