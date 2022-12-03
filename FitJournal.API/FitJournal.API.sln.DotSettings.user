@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0d7d0c42_002Dddbe_002D43b9_002D9da4_002D52f802c47942/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ConfigureServices_ForController_RegisteredAllDependencies" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::63411269-7C1E-43F9-B623-F4E9E0BFC0B9::net6.0::FitJournal.IntegrationTests.ProgramTests.ConfigureServices_ForController_RegisteredAllDependencies&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::63411269-7C1E-43F9-B623-F4E9E0BFC0B9::net6.0::FitJournal.IntegrationTests.ExercisesControllerTests.GetAll_ForExercises_ShouldReturnOkResult&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::E0051B5D-1774-402E-BAA9-3D18A2B78E0C::net6.0::FitJournal.Tests.API.Tests.Handlers.AddExercisesCommandTests.Handle_ForExerciseDto_ShouldReturnOkObjectResult&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

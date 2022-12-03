@@ -27,4 +27,5 @@ public static class InfrastructureConfigurator
             options.UseSqlServer(configuration.GetConnectionString("DefaultConnectionString"));
         });
     }
+
 }

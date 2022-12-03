@@ -23,10 +23,15 @@ public class ServicesConfigurator
     public void ConfigureServices()
     {
         _services.AddInfrastructureServices(_configuration);
+        ConfigurePackages();
         ConfigureMediatr();
     }
     private void ConfigureMediatr()
     {
         _services.AddMediatR(Assembly.GetExecutingAssembly());
+    }    
+    private void ConfigurePackages()
+    {
+        _services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
     }
 }

@@ -84,3 +84,8 @@
 /Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.API/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
 /Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.API/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
 /Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.API/bin/Debug/net6.0/System.Memory.Data.dll
+/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.API/bin/Debug/net6.0/MediatR.dll
+/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.API/bin/Debug/net6.0/MediatR.Contracts.dll
+/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.API/bin/Debug/net6.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
+/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.API/bin/Debug/net6.0/AutoMapper.dll
+/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
