@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.IntegrationTests/FitJournal.IntegrationTests.csproj": {}
+    "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Tests/FitJournal.IntegrationTests/FitJournal.IntegrationTests.csproj": {}
   },
   "projects": {
-    "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.API/FitJournal.API.csproj": {
+    "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.API/FitJournal.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.API/FitJournal.API.csproj",
+        "projectUniqueName": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.API/FitJournal.API.csproj",
         "projectName": "FitJournal.API",
-        "projectPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.API/FitJournal.API.csproj",
+        "projectPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.API/FitJournal.API.csproj",
         "packagesPath": "/Users/mac/.nuget/packages/",
-        "outputPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.API/obj/",
+        "outputPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.API/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -29,8 +29,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.Infrastructure/FitJournal.Infrastructure.csproj": {
-                "projectPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.Infrastructure/FitJournal.Infrastructure.csproj"
+              "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Infrastructure/FitJournal.Infrastructure.csproj": {
+                "projectPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Infrastructure/FitJournal.Infrastructure.csproj"
               }
             }
           }
@@ -109,14 +109,14 @@
         }
       }
     },
-    "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.Domain/FitJournal.Domain.csproj": {
+    "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/FitJournal.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.Domain/FitJournal.Domain.csproj",
+        "projectUniqueName": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/FitJournal.Domain.csproj",
         "projectName": "FitJournal.Domain",
-        "projectPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.Domain/FitJournal.Domain.csproj",
+        "projectPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/FitJournal.Domain.csproj",
         "packagesPath": "/Users/mac/.nuget/packages/",
-        "outputPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.Domain/obj/",
+        "outputPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -187,14 +187,14 @@
         }
       }
     },
-    "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.Infrastructure/FitJournal.Infrastructure.csproj": {
+    "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Infrastructure/FitJournal.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.Infrastructure/FitJournal.Infrastructure.csproj",
+        "projectUniqueName": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Infrastructure/FitJournal.Infrastructure.csproj",
         "projectName": "FitJournal.Infrastructure",
-        "projectPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.Infrastructure/FitJournal.Infrastructure.csproj",
+        "projectPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Infrastructure/FitJournal.Infrastructure.csproj",
         "packagesPath": "/Users/mac/.nuget/packages/",
-        "outputPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.Infrastructure/obj/",
+        "outputPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -212,8 +212,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.Domain/FitJournal.Domain.csproj": {
-                "projectPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.Domain/FitJournal.Domain.csproj"
+              "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/FitJournal.Domain.csproj": {
+                "projectPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/FitJournal.Domain.csproj"
               }
             }
           }
@@ -273,14 +273,14 @@
         }
       }
     },
-    "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.IntegrationTests/FitJournal.IntegrationTests.csproj": {
+    "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Tests/FitJournal.IntegrationTests/FitJournal.IntegrationTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.IntegrationTests/FitJournal.IntegrationTests.csproj",
+        "projectUniqueName": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Tests/FitJournal.IntegrationTests/FitJournal.IntegrationTests.csproj",
         "projectName": "FitJournal.IntegrationTests",
-        "projectPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.IntegrationTests/FitJournal.IntegrationTests.csproj",
+        "projectPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Tests/FitJournal.IntegrationTests/FitJournal.IntegrationTests.csproj",
         "packagesPath": "/Users/mac/.nuget/packages/",
-        "outputPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.IntegrationTests/obj/",
+        "outputPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Tests/FitJournal.IntegrationTests/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -298,8 +298,17 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.API/FitJournal.API.csproj": {
-                "projectPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.API/FitJournal.API.csproj"
+              "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.API/FitJournal.API.csproj": {
+                "projectPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.API/FitJournal.API.csproj"
+              },
+              "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/FitJournal.Domain.csproj": {
+                "projectPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/FitJournal.Domain.csproj"
+              },
+              "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Infrastructure/FitJournal.Infrastructure.csproj": {
+                "projectPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Infrastructure/FitJournal.Infrastructure.csproj"
+              },
+              "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Tests/FitJournal.API/FitJournal.API.csproj": {
+                "projectPath": "/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Tests/FitJournal.API/FitJournal.API.csproj"
               }
             }
           }

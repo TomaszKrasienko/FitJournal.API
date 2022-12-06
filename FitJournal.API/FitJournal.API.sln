@@ -1,14 +1,18 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitJournal.Domain", "FitJournal.Domain\FitJournal.Domain.csproj", "{DB89A45D-24E2-4B51-AF72-0BC3335DE277}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitJournal.Domain", "Src\FitJournal.Domain\FitJournal.Domain.csproj", "{DB89A45D-24E2-4B51-AF72-0BC3335DE277}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitJournal.API", "FitJournal.API\FitJournal.API.csproj", "{F24CEBA6-38D1-4DD8-8751-E1454B0EAE87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitJournal.API", "Src\FitJournal.API\FitJournal.API.csproj", "{F24CEBA6-38D1-4DD8-8751-E1454B0EAE87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitJournal.Infrastructure", "FitJournal.Infrastructure\FitJournal.Infrastructure.csproj", "{DA5C2F1A-3BE3-4D76-AE0E-AA26143A66C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitJournal.Infrastructure", "Src\FitJournal.Infrastructure\FitJournal.Infrastructure.csproj", "{DA5C2F1A-3BE3-4D76-AE0E-AA26143A66C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitJournal.Tests", "FitJournal.Tests\FitJournal.Tests.csproj", "{E0051B5D-1774-402E-BAA9-3D18A2B78E0C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitJournal.Tests", "Tests\FitJournal.Tests\FitJournal.Tests.csproj", "{E0051B5D-1774-402E-BAA9-3D18A2B78E0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitJournal.IntegrationTests", "FitJournal.IntegrationTests\FitJournal.IntegrationTests.csproj", "{63411269-7C1E-43F9-B623-F4E9E0BFC0B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitJournal.IntegrationTests", "Tests\FitJournal.IntegrationTests\FitJournal.IntegrationTests.csproj", "{63411269-7C1E-43F9-B623-F4E9E0BFC0B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{B4B070E7-2922-46D5-BAAA-71271FFB3B42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0B2C0B1E-D973-469E-B4E4-2A8B14ECFBDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +40,12 @@ Global
 		{63411269-7C1E-43F9-B623-F4E9E0BFC0B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63411269-7C1E-43F9-B623-F4E9E0BFC0B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63411269-7C1E-43F9-B623-F4E9E0BFC0B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F24CEBA6-38D1-4DD8-8751-E1454B0EAE87} = {B4B070E7-2922-46D5-BAAA-71271FFB3B42}
+		{DB89A45D-24E2-4B51-AF72-0BC3335DE277} = {B4B070E7-2922-46D5-BAAA-71271FFB3B42}
+		{DA5C2F1A-3BE3-4D76-AE0E-AA26143A66C1} = {B4B070E7-2922-46D5-BAAA-71271FFB3B42}
+		{63411269-7C1E-43F9-B623-F4E9E0BFC0B9} = {0B2C0B1E-D973-469E-B4E4-2A8B14ECFBDE}
+		{E0051B5D-1774-402E-BAA9-3D18A2B78E0C} = {0B2C0B1E-D973-469E-B4E4-2A8B14ECFBDE}
 	EndGlobalSection
 EndGlobal
