@@ -17,27 +17,30 @@ public class ExercisesRepository : IExercisesRepository
     {
         return await _context
             .Exercises
-            .OrderBy(x =>x.Id)
             .Skip((parameters.PageNumber - 1) * parameters.PageSize )
             .Take(parameters.PageSize)
             .ToListAsync();
     }
-
     public async Task<Exercise> AddAsync(Exercise entity)
     {
         await _context.Exercises.AddAsync(entity);
         await _context.SaveChangesAsync();
         return entity;
     }
-
     public async Task<Exercise> EditAsync(int id, Exercise exercise)
     {
-        var entity = await _context
-            .Exercises
-            .FirstOrDefaultAsync(x => x.Id == id);
-        EntityEntry entityEntry = _context.Entry(entity);
+        exercise.Id = id;
+        EntityEntry entityEntry = _context.Entry<Exercise>(exercise);
         entityEntry.State = EntityState.Modified;
         await _context.SaveChangesAsync();
         return exercise;
+    }
+    public async Task<int> DeleteAsync(int id)
+    {
+        var entity = await _context.Exercises.FirstOrDefaultAsync(x => x.Id == id);
+        EntityEntry entityEntry = _context.Entry(entity);
+        entityEntry.State = EntityState.Deleted;
+        await _context.SaveChangesAsync();
+        return id;
     }
 }

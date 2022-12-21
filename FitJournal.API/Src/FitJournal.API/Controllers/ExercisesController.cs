@@ -27,9 +27,15 @@ public class ExercisesController : Controller
     {
         return await _mediator.Send(new AddExerciseCommand() {ExerciseDto = exerciseDto});
     }
-    [HttpPut("{Id}")]
-    public async Task<IActionResult> Edit([FromRoute] int Id, [FromBody] ExerciseDto exerciseDto)
+    [HttpPut("{id}")]
+    public async Task<IActionResult> Edit([FromRoute] int id, [FromBody] ExerciseDto exerciseDto)
     {
-        return await _mediator.Send(new EditExerciseCommand() {ExerciseId = Id, ExerciseDto = exerciseDto});
+        return await _mediator.Send(new EditExerciseCommand() {ExerciseId = id, ExerciseDto = exerciseDto});
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> Delete([FromRoute]int id)
+    {
+        return await _mediator.Send(new DeleteExerciseCommand() {Id = id});
     }
 }

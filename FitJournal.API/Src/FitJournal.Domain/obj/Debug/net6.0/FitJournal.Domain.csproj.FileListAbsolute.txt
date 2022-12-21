@@ -12,3 +12,17 @@
 /Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.Domain/obj/Debug/net6.0/FitJournal.Domain.pdb
 /Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.Domain/obj/Debug/net6.0/FitJournal.Domain.genruntimeconfig.cache
 /Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/FitJournal.Domain/obj/Debug/net6.0/ref/FitJournal.Domain.dll
+/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/bin/Debug/net6.0/FitJournal.Domain.deps.json
+/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/bin/Debug/net6.0/FitJournal.Domain.runtimeconfig.json
+/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/bin/Debug/net6.0/FitJournal.Domain.dll
+/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/bin/Debug/net6.0/FitJournal.Domain.pdb
+/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/obj/Debug/net6.0/FitJournal.Domain.csproj.AssemblyReference.cache
+/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/obj/Debug/net6.0/FitJournal.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/obj/Debug/net6.0/FitJournal.Domain.AssemblyInfoInputs.cache
+/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/obj/Debug/net6.0/FitJournal.Domain.AssemblyInfo.cs
+/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/obj/Debug/net6.0/FitJournal.Domain.csproj.CoreCompileInputs.cache
+/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/obj/Debug/net6.0/FitJournal.Domain.dll
+/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/obj/Debug/net6.0/refint/FitJournal.Domain.dll
+/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/obj/Debug/net6.0/FitJournal.Domain.pdb
+/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/obj/Debug/net6.0/FitJournal.Domain.genruntimeconfig.cache
+/Users/mac/Documents/Projects/PrivateGitRepos/FitJournal.API/FitJournal.API/Src/FitJournal.Domain/obj/Debug/net6.0/ref/FitJournal.Domain.dll
